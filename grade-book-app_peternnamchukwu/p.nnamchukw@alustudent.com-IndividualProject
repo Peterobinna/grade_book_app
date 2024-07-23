@@ -140,7 +140,7 @@ def main():
 
     while True:
         print("\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
-        print("    Welcome to Yunis App    ")
+        print("    Welcome to Peter's App    ")
         print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
         print("1. Add Student")
         print("2. Add Course")
@@ -192,7 +192,7 @@ def main():
         elif choice == '8':
             gradebook.save_data('gradebook_data.pkl')
         elif choice == '9':
-            print("Thank you for using Yunis's Grade Book App.")
+            print("Thank you for using Peter's Grade Book App.")
             break
         else:
             print("Invalid choice. Please try again.")
